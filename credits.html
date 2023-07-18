@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Cyberpunk</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon.png">
+		<meta charset="UTF-8"/>
+		<!--css-->
+		<link rel="stylesheet" href="style/style.css">
+		<!-- bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<!--fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+		<!--vedi se metterlo o no, lo spiegano all'inizio di w3school-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!--Elemento header per la testata della pagina-->
+	
+		<header>
+			<!--metti foglio di stile in linea per modificare immagine testata!-->
+			<div class="testo-intro">
+				<a href="index.html" title="Home" class="logo">
+				<p>Cyberpunk</p>
+				</a>
+			</div>
+		</header>
+		<!--Elemento nav per il menu di navigazione-->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="index.html" title="Home">Home</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Catalogo">
+		            Catalogo
+		          </a>
+		          <ul class="dropdown-menu">
+		            <<li><a class="dropdown-item" href="listItems.html" title="Lista">Lista</a></li>
+		            <li><a class="dropdown-item" href="#" title="Persone">Persone</a></li>
+		            <li><a class="dropdown-item" href="luoghi.html" title="Luoghi">Luoghi</a></li>
+		            <li><a class="dropdown-item" href="#" title="Temi">Temi</a></li>
+		            <li><a class="dropdown-item" href="date.html" title="Date">Date</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#" title="About">About</a>
+		        </li>
+		        <!--Cerca-->
+		        <div class="search">
+			        <form class="d-flex justify-content-end" role="search">
+				      <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+				      <button class="btn btn-light" type="submit"><img src="icons/search.svg"/></button>
+				    </form>
+				</div>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!--Elemento section per la serie delle sezioni-->
+		<section>
+			<div>
+				<h2 class="catalogo-lista">Credits</h2>
+			</div>
+			<div class="about">
+				<p> <a href="https://www.flaticon.com/free-icons/cyberpunk" title="cyberpunk icons">Cyberpunk icons created by Freepik - Flaticon</a></p>
+			</div>
+			
+			</div>
+			<div class="credits">
+				<p><a href="credits.html" title="Pagina corrente">Credits</a> | <a href="#">Licenze</a></p>
+			</div>
+		</section>
+	
+	<!--Elemento footer per il piede di pagina-->
+	<footer>
+		<p>&copy; Copyright Angelica Castronovo 2023 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</footer>
+	<!-- bootstrap js -->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

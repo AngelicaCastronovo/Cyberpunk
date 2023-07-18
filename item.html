@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Cyberpunk</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon.png">
+		<meta charset="UTF-8"/>
+		<!--css-->
+		<link rel="stylesheet" href="style/style.css">
+		<!-- bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<!--fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+		<!--vedi se metterlo o no, lo spiegano all'inizio di w3school-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!--Elemento header per la testata della pagina-->
+	
+		<header>
+			<!--metti foglio di stile in linea per modificare immagine testata!-->
+			<div class="testo-intro">
+				<a href="index.html" title="Home" class="logo">
+				<p>Cyberpunk</p>
+				</a>
+			</div>
+		</header>
+		<!--Elemento nav per il menu di navigazione-->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="index.html" title="Home">Home</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Catalogo">
+		            Catalogo
+		          </a>
+		          <ul class="dropdown-menu">
+		            <li><a class="dropdown-item" href="listItems.html" title="Lista">Lista</a></li>
+		            <li><a class="dropdown-item" href="#" title="Persone">Persone</a></li>
+		            <li><a class="dropdown-item" href="luoghi.html" title="Luoghi">Luoghi</a></li>
+		            <li><a class="dropdown-item" href="#" title="Temi">Temi</a></li>
+		            <li><a class="dropdown-item" href="date.html" title="Date">Date</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="about.html" title="storia e generi del Cyberpunk">About</a>
+		        </li>
+		        <!--Cerca-->
+		        <div class="search">
+			        <form class="d-flex justify-content-end" role="search">
+				      <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+				      <button class="btn btn-light" type="submit"><img src="icons/search.svg" alt="search" /></button>
+				    </form>
+				</div>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!--Elemento section per la serie delle sezioni-->
+		<section>
+			<div>
+
+			</div>
+			<div class="container text-center">
+			  <div class="row">
+			    <div class="col-md-1">
+			    	<div class="breadcrumb">
+					    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+						  <ol class="breadcrumb">
+						    <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
+						    <li class="breadcrumb-item"><a href="#" title="Catalogo">Catalogo</a></li>
+						    <li class="breadcrumb-item"><a href="listItems.html" title="Lista">Lista</a></li>
+						    <li class="breadcrumb-item active" aria-current="page">Akira</li>
+						  </ol>
+						</nav>
+					</div>
+			    </div>
+			    <div class="col-md-8">
+			      <div class="title"><h2>Akira</h2></div>
+			      <!--card Akira-->
+			      	<div class="card mb-3">
+					  <img src="img/akiracomics.jpg" class="card-img-top" alt="akira comics">
+					  <div class="card-body">
+					    <h5 class="card-title">Metadati</h5>
+					    <hr></hr>
+					    <table class="table">
+						  <tbody>
+						  	<tr>
+						      <td>Tipo di documento:</td>
+						      <td colspan="2">Manga</td>
+						      <td><button type="button" class="btn btn-light"><a href="#" class="linkviola" title="Vedi in Manga">Manga</a></button></td>
+						    </tr>
+						    <tr>
+						      <td>Titolo:</td>
+						      <td colspan="2">Akira</td>
+						      <td></td>
+						    </tr>
+						    <tr>
+						      <td>Autore:</td>
+						      <td colspan="2">Ōtomo, Katsuhiro<sup><a href="https://viaf.org/viaf/114582640/#%C5%8Ctomo,_Katsuhiro,_1954-" target="_blank" title="Identificativo VIAF di Ōtomo, Katsuhiro">VIAF</a>, <a href="https://opac.sbn.it/risultati-autori/-/opac-autori/detail/ITICCUANAV055643?core=autori&item%3A6003%3ANome=otomo+katsuhiro&_cacheid=1689582738435" target="_blank" title="Identificativo SBN di Ōtomo, Katsuhiro">SBN</a></sup></td>
+						      <td><button type="button" class="btn btn-light"><a href="#" class="linkviola" title="Vedi in Persone">Persone</a></button></td>
+						    </tr>
+						    <td>Traduttori:</td>
+						      <td colspan="2">Umezawa, Yoko<sup><a href="https://viaf.org/viaf/275227515/#Umezawa,_Yoko." target="_blank" title="Identificativo VIAF di Umezawa, Yoko">VIAF</a></sup></td>
+						      <td><button type="button" class="btn btn-light"><a href="#" class="linkviola" title="Vedi in Persone">Persone</a></button></td>
+						    </tr>
+						    <td></td>
+						      <td colspan="2">York, Linda M.<sup><a href="https://viaf.org/viaf/278510577/#York,_Linda_M." target="_blank" target="_blank" title="Identificativo VIAF di York, Linda M.">VIAF</a></sup></td>
+						      <td><button type="button" class="btn btn-light"><a href="#" class="linkviola" title="Vedi in Persone">Persone</a></button></td>
+						    </tr>
+						    <td></td>
+						      <td colspan="2">Duffy, Jo<sup><a href="https://viaf.org/viaf/63113061/#Duffy,_Jo,_1954-" target="_blank" title="Identificativo VIAF di Duffy, Jo">VIAF</a></sup></td>
+						      <td><button type="button" class="btn btn-light"><a href="#" class="linkviola" title="Vedi in Persone">Persone</a></button></td>
+						    </tr>
+						    <tr>
+						      <td>Edizione:</td>
+						      <td colspan="2">1 edizione (ristampa)</td>
+						      <td></td>
+						    </tr>
+						    <tr>
+						      <td>Luogo di edizione:</td>
+						      <td colspan="2">New York<sup><a href="http://vocab.getty.edu/page/tgn/7007568" target="_blank" title="Identificativo del Getty Thesaurus of Geographic Names">TGN</a></sup></td>
+						      <td><button type="button" class="btn btn-light"><a href="luoghi.html" class="linkviola" title="Vedi in Luoghi">Luoghi</a></button></td>
+						    </tr>
+						    <tr>
+						      <td>Editore:</td>
+						      <td colspan="2">Kodansha Comics</td>
+						      <td></td>
+						    </tr>
+						    <tr>
+						      <td>Data di edizione:</td>
+						      <td colspan="2">2009</td>
+						      <td><button type="button" class="btn btn-light"><a href="date.html" class="linkviola" title="Vedi in Date">Date</a></button></td>
+						    </tr>
+						    <tr>
+						      <td>Edizione originale:</td>
+						      <td colspan="2">Tōkyō<sup><a href="http://vocab.getty.edu/page/tgn/1001032" target="_blank" title="Identificativo del Getty Thesaurus of Geographic Names">TGN</a></sup>, Kodansha Ltd.</td>
+						      <td><button type="button" class="btn btn-light"><a href="luoghi.html" class="linkviola" title="Vedi in Luoghi">Luoghi</a></button></td>
+						    </tr>
+						    <tr>
+						      <td>Data di edizione originale:</td>
+						      <td colspan="2">1982-1990</td>
+						      <td><button type="button" class="btn btn-light"><a href="date.html" class="linkviola" title="Vedi in Date">Date</a></button></td>
+						    </tr>
+						    <tr>
+						      <td>Descrizione fisica:</td>
+						      <td colspan="2">6 volumi, completamnete illustrato, 26 cm</td>
+						      <td></td>
+						    </tr>
+						    <tr>
+						      <td>Identificativo:</td>
+						      <td colspan="2">326533804<sup><a href="https://worldcat.org/title/326533804?oclcNum=326533804" target="_blank" title="OCLC identificativo del WorldCat">OCLC</a></sup></td>
+						      <td></td>
+						    </tr>
+						    <tr>
+						      <td></td>
+						      <td colspan="2">Q91486<sup><a href="https://www.wikidata.org/wiki/Q91486" target="_blank" title="Identificativo Wikidata">Wikidata</a></sup></td>
+						      <td></td>
+						    </tr>
+						    <tr>
+						      <td>Temi:</td>
+						      <td colspan="2"><a href="manga.html" title="Manga"><button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Manga</button></a> 
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Fumetto</button>
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Cyberpunk</button> 
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Science Fiction</button> 
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Tokyo</button> 
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Giappone</button>
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Post-apocalittico</button> 
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Politica</button>
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Esperimenti</button> 
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Droghe</button> 
+						      <button type="button" class="btn btn-outline-info btn-sm"><img src="icons/tag.svg" alt="tag"/> Motociclette</button></td>
+						      <td><button type="button" class="btn btn-light"><a href="#" class="linkviola" title="Vedi in Temi">Temi</a></button></td>
+						    </tr>
+						    <tr>
+						      <td>XML-DC</td>
+						      <td colspan="2"><button type="button" class="btn btn-info"><a href="XML-DC.xml" class="btnblue" target="_blank" title="apri XML-DC">XML-DC</a></button></td>
+						      <td></td>
+						    </tr>
+						    <tr>
+						      <td>XML-TEI</td>
+<!-- problema com XML-TEI per elemento "panel"-->
+						      <td colspan="2"><button type="button" class="btn btn-info"><a href="xmlteiakira.html" class="btnblue" target="_blank" title="apri pagina XML-TEI Akira">XML-TEI</a></button></td>
+						      <td></td>
+						    </tr>
+						    <tr>
+						      <td>ISBD record:</td>
+						      <td colspan="2"><p>Akira / Katsuhiro Otomo. ; tradotto da Umezawa, Yoko, York, Linda M., Duffy, Jo — 7th edition. — New York : Kodansha Comics, 2009. — 6 v. : ill. ; 26 cm. — OCLC 326533804. — Wikidata Q91486</td>
+						      <td></td>
+						    </tr>
+						  </tbody>
+						</table>
+					  </div>
+					</div>
+			    </div>
+			    <div class="col-md-2">
+			    	<div class="ritocchi">
+			    		Item correlati:
+			    		<a href="#" title="Vai all'item 'Akira' (Film)">
+					<div class="card" style="width: 18rem;">
+					  <img src="img/akirafilm.jpg" class="card-img-top" alt="Akira Film">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>Akira</h6>
+					</a>
+					    <div class="text-start">
+						    <p>Film</p>
+						  	<p>Ōtomo, Katsuhiro<sup><a href="https://viaf.org/viaf/114582640/#%C5%8Ctomo,_Katsuhiro,_1954-" target="_blank" title="Identificativo VIAF di Ōtomo, Katsuhiro">VIAF</a></sup></p>
+						  	<p>1988</p>
+						  	<p>Giappone</p>
+						</div>
+						</p>
+					  </div>
+					  <!--fine card-->
+					</div>
+			    	</div>
+			    </div>
+			  </div>
+			</div>
+			<div class="credits">
+				<p><a href="credits.html">Credits</a> | <a href="#">Licenze</a></p>
+			</div>
+		</section>
+	
+	<!--Elemento footer per il piede di pagina-->
+	<footer>
+		<p>&copy; Copyright Angelica Castronovo 2023 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</footer>
+	<!-- bootstrap js -->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

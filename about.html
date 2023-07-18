@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Cyberpunk</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon.png">
+		<meta charset="UTF-8"/>
+		<!--css-->
+		<link rel="stylesheet" href="style/style.css">
+		<!-- bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<!--fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+		<!--vedi se metterlo o no, lo spiegano all'inizio di w3school-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!--Elemento header per la testata della pagina-->
+	
+		<header>
+			<!--metti foglio di stile in linea per modificare immagine testata!-->
+			<div class="testo-intro">
+				<a href="index.html" title="Home" class="logo">
+				<p>Cyberpunk</p>
+				</a>
+			</div>
+		</header>
+		<!--Elemento nav per il menu di navigazione-->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="index.html" title="Home">Home</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Catalogo">
+		            Catalogo
+		          </a>
+		          <ul class="dropdown-menu">
+		            <<li><a class="dropdown-item" href="listItems.html" title="Lista">Lista</a></li>
+		            <li><a class="dropdown-item" href="#" title="Persone">Persone</a></li>
+		            <li><a class="dropdown-item" href="luoghi.html" title="Luoghi">Luoghi</a></li>
+		            <li><a class="dropdown-item" href="#" title="Temi">Temi</a></li>
+		            <li><a class="dropdown-item" href="date.html" title="Date">Date</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#" title="pagina corrente">About</a>
+		        </li>
+		        <!--Cerca-->
+		        <div class="search">
+			        <form class="d-flex justify-content-end" role="search">
+				      <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+				      <button class="btn btn-light" type="submit"><img src="icons/search.svg" align="search" /></button>
+				    </form>
+				</div>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!--Elemento section per la serie delle sezioni-->
+		<section>
+			<div>
+				<h2 class="catalogo-lista">About</h2>
+			</div>
+			<div class="about">
+				<h3>Storia del Cyberpunk</h3>
+				<p> paragrafo breve su storia del Cyberpunk</p>
+				<button type="button" class="btn btn-outline-info btn-sm"><a href="https://it.wikipedia.org/wiki/Cyberpunk" target="_blank" title="apri pagina Wikipedia 'Cyberpunk'">per approfondire</a></button>
+			</div>
+			<div class="about">
+				<h3>Sottogeneri e derivazioni del Cyberpunk</h3>
+	<!--scrollspy-->
+				<div class="scrollspy">
+				<p><div class="row">
+				  <div class="col-md-4">
+				    <div id="list-example" class="list-group">
+				      <a class="list-group-item list-group-item-action" href="#list-item-1">Steampunk</a>
+				      <a class="list-group-item list-group-item-action" href="#list-item-2">Biopunk</a>
+				      <a class="list-group-item list-group-item-action" href="#list-item-3">Dieselpunk</a>
+				      <a class="list-group-item list-group-item-action" href="#list-item-4">Steelpunk</a>
+				    </div>
+				  </div>
+				  <div class="col-md-8">
+				    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+				      <h4 id="list-item-1">Steampunk</h4>
+				      <p>Il termine steampunk è nato alla fine degli anni ottanta come una variante scherzosa di cyberpunk. Piuttosto che enfatizzare i temi della distopia informatica, della bioingegneria e della nanotecnologia presenti nella narrativa cyberpunk, lo steampunk tende a concentrarsi più attentamente sulla tecnologia dell'era vittoriana con: macchine a vapore, congegni meccanici a orologeria e in alcuni casi la robotica (ma avente come base la meccanica e non l'informatica). Si presenta dunque come il trionfo della meccanica in opposizione all'elettronica del cyberpunk. Lo steampunk ha però origini precedenti rispetto alla sua definizioni degli anni 80, di fatto la paternità di questo sottogenere la si attesta a Jules Verne.</p>
+				      <h4 id="list-item-2">Biopunk</h4>
+				      <p>Il biopunk sui risvolti tecnologici della biologia e della bioingegneria. Ciò comporta che la tecnologia e/o la vita presente nell'opera si sia sviluppata attraverso la rielaborazione del DNA e dei cromosomi dando vita a nuove specie viventi o a nuove tecnologie aventi come base un composto o un'entità organica (armi, strutture, veicoli, ecc.).</p>
+				      <h4 id="list-item-3">Dieselpunk</h4>
+				      <p>...</p>
+				      <h4 id="list-item-4">Steelpunk</h4>
+				      <p>...</p>
+				    </div>
+				  </div>
+				</div></p>
+				</div>
+	<!--fine scrollspy-->
+			</div>
+			<div class="credits">
+				<p><a href="credits.html">Credits</a> | <a href="#">Licenze</a></p>
+			</div>
+		</section>
+	
+	<!--Elemento footer per il piede di pagina-->
+	<footer>
+		<p>&copy; Copyright Angelica Castronovo 2023 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</footer>
+	<!-- bootstrap js -->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

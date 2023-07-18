@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Cyberpunk</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon.png">
+		<meta charset="UTF-8"/>
+		<!--css-->
+		<link rel="stylesheet" href="style/style.css">
+		<!-- bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<!--fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+		<!--vedi se metterlo o no, lo spiegano all'inizio di w3school-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!--Elemento header per la testata della pagina-->
+	
+		<header>
+			<!--metti foglio di stile in linea per modificare immagine testata!-->
+			<div class="testo-intro">
+				<a href="index.html" title="Home" class="logo">
+				<p>Cyberpunk</p>
+				</a>
+			</div>
+		</header>
+		<!--Elemento nav per il menu di navigazione-->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="index.html" title="Home">Home</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Catalogo">
+		            Catalogo
+		          </a>
+		          <ul class="dropdown-menu">
+		            <<li><a class="dropdown-item" href="listItems.html" title="Pagina corrente">Lista</a></li>
+		            <li><a class="dropdown-item" href="#" title="Persone">Persone</a></li>
+		            <li><a class="dropdown-item" href="luoghi.html" title="Luoghi">Luoghi</a></li>
+		            <li><a class="dropdown-item" href="#" title="Temi">Temi</a></li>
+		            <li><a class="dropdown-item" href="date.html" title="Date">Date</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="about.html" title="storia e generi del Cyberpunk">About</a>
+		        </li>
+		        <!--Cerca-->
+		        <div class="search">
+			        <form class="d-flex justify-content-end" role="search">
+				      <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+				      <button class="btn btn-light" type="submit"><img src="icons/search.svg" alt="search" /></button>
+				    </form>
+				</div>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!--Elemento section per la serie delle sezioni-->
+		<section>
+			<div>
+				<h2 class="catalogo-lista">Catalogo-Lista</h2>
+			</div>
+			<div class="container text-center">
+			  <div class="row">
+			    <div class="col-md-2">
+			    	<!-- breadcrumb-->
+			    	<div class="breadcrumb">
+					    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+						  <ol class="breadcrumb">
+						    <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
+						    <li class="breadcrumb-item"><a href="#" title="Catalogo">Catalogo</a></li>
+						    <li class="breadcrumb-item active" aria-current="page">Lista</li>
+						  </ol>
+						</nav>
+					</div>
+					<!--fine breadcrumb-->
+					<!--accordion-->
+					<p>Esplora per:</p>
+					<div class="accordion" id="accordionExample">
+					  <div class="accordion-item">
+					    <h5 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+					        Tipo:
+					      </button>
+					    </h5>
+					    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					      <div class="accordion-body">
+					        <p>Tipo di documento:</p>
+					        <p><a href="manga.html" title="Manga"><button type="button" class="btn btn-outline-info btn-sm">Manga</button> </a></p>
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Libro</a></button> </p>
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Film</a></button> </p>
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Serie TV</a></button> </p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="accordion-item">
+					    <h5 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					        Generi:
+					      </button>
+					    </h5>
+					    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					      <div class="accordion-body">
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Steampunk</a></button> </p>
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Biopunk</a></button> </p>
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Dieselpunk</a></button> </p>
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Steelpunk</a></button> </p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="accordion-item">
+					    <h5 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					        Luogo:
+					      </button>
+					    </h5>
+					    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					      <div class="accordion-body">
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Giappone</a></button> </p>
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Stati Uniti</a></button> </p>
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Italia</a></button> </p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="accordion-item">
+					    <h5 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					        Ordina per:
+					      </button>
+					    </h5>
+					    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					      <div class="accordion-body">
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Dalla A alla Z</a></button> </p>
+					        <p><button type="button" class="btn btn-outline-info btn-sm"><a href="#">Ordine cronologico</a></button> </p> 
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!--fine accordion-->
+			    </div>
+			    <div class="col-md-5">
+			    	<!--cards-->
+			    	<!-- 1 item -->
+					<a href="item.html" title="Vai all'item 'Akira' (Manga)">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/akiracomics.jpg" class="card-img-top" alt="Akira vol.1-6">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>Akira</h6>
+					</a>
+					    <div class="text-start">
+						    <p >Manga</p>
+						  	<p>Ōtomo, Katsuhiro<sup><a href="https://viaf.org/viaf/114582640/#%C5%8Ctomo,_Katsuhiro,_1954-" target="_blank" title="Identificativo VIAF di Ōtomo, Katsuhiro">VIAF</a></sup></p>
+						  	<p>1982-1990</p>
+						  	<p>Giappone</p>
+					  	</div>
+					    </p>
+					  </div>
+					</div>
+					<!-- 2 item -->
+					<a href="#" title="Vai all'item 'Ghost in the Shell'">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/ghost.jpg" class="card-img-top" alt="Ghost in the Shell">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>Ghost in the shell</h6>
+					</a>
+					    <div class="text-start">
+							<p>Manga</p>
+							<p>Shirō, Masamune<sup><a href="https://viaf.org/viaf/106971336/#Shir%C5%8D,_Masamune_1961-" target="_blank" title="Identificativo VIAF di Shirō, Masamune">VIAF</a></sup></p>
+							<p>1989-1991</p>
+							<p>Giappone</p>
+						</div>
+						</p>
+					  </div>
+					</div>
+					<!-- 3 item -->
+					<a href="#" title="Vai all'item 'Neuromancer'">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/neuromancer.jpg" class="card-img-top" alt="Neuromancer">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>Neuromancer</h6>
+					</a>
+					    <div class="text-start">
+							<p>Libro</p>
+							<p>Gibson, William <sup><a href="https://viaf.org/viaf/109517110/#Gibson,_William,_1948-...." target="_blank" title="Identificativo VIAF di Gibson, William">VIAF</a></sup></p>
+							<p>1984</p>
+							<p>Stati Uniti</p>
+						</div>
+						</p>
+					  </div>
+					</div>
+					<!-- 4 item -->
+					<a href="#" title="Vai all'item 'Matrix'">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/matrix.jpg" class="card-img-top" alt="Matrix">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>Matrix</h6>
+					</a>
+					    <div class="text-start">
+						    <p>Film</p>
+						  	<p>Wachowski, Lana<sup><a href="https://viaf.org/viaf/85492177/#Wachowski,_Lana,_1965-...." target="_blank" title="Identificativo VIAF di Wachowski, Lana">VIAF</a></sup>, Wachowski, Lilly<sup><a href="https://viaf.org/viaf/54348239/#Wachowski,_Lilly,_1967-...." target="_blank" title="Identificativo VIAF di Wachowski, Lilly">VIAF</a></sup></p>
+						  	<p>1999</p>
+						  	<p>Stati Uniti</p>
+						 </div>
+						</p>
+					  </div>
+					</div>
+					<!-- 5 item -->
+					<a href="#" title="Vai all'item 'Ai due lati del muro'">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/aiduelatidelmuro.jpg" class="card-img-top" alt="Ai due lati del muro">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>Ai due lati del muro</h6>
+					</a>
+					    <div class="text-start">
+						    <p>Libro</p>
+						  	<p>Grasso, Francesco<sup><a href="https://viaf.org/viaf/90297427/#Francesco_Grasso_eskritor_italiano" target="_blank" title="Identificativo VIAF di Grasso, Francesco">VIAF</a></sup></p>
+						  	<p>1992</p>
+						  	<p>Italia</p>
+						</div>
+						</p>
+					  </div>
+					</div>
+					<!--fine cards-->
+			    </div>
+			    <!-- fine 1 colonna-->
+			    <!--2 colonna-->
+			    <div class="col-md-5">
+			    	<!--cards-->
+			    	<!-- 1 item -->
+					<a href="#" title="Vai all'item 'Akira' (Film)">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/akirafilm.jpg" class="card-img-top" alt="Akira Film">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>Akira</h6>
+					</a>
+					    <div class="text-start">
+						    <p>Film</p>
+						  	<p>Ōtomo, Katsuhiro<sup><a href="https://viaf.org/viaf/114582640/#%C5%8Ctomo,_Katsuhiro,_1954-" target="_blank" title="Identificativo VIAF di Ōtomo, Katsuhiro">VIAF</a></sup></p>
+						  	<p>1988</p>
+						  	<p>Giappone</p>
+						</div>
+						</p>
+					  </div>
+					</div>
+					<!-- 2 item -->
+					<a href="#" title="Vai all'item 'Blade Runner'">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/bladerunner.png" class="card-img-top" alt="Blade Runner">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>Blade Runner</h6>
+					</a>
+					    <div class="text-start">
+						    <p>Film</p>
+							<p>Scott, Ridley<sup><a href="https://viaf.org/viaf/95126970/#Scott,_Ridley,_1937-...." target="_blank" target="_blank" title="Identificativo VIAF di Scott, Ridley">VIAF</a></sup></p>
+							<p>1982</p>
+							<p>Stati Uniti</p>
+						</div>
+						</p>
+					  </div>
+					</div>
+					<!-- 3 item -->
+					<a href="#" title="Vai all'item 'Do Androids Dream of Eletric Sheep?'">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/doandroids.jpg" class="card-img-top" alt="Do Androids Dream of Electric Sheep?">
+					  <div class="card-body">
+					    <p class="card-text">
+					  	<h6>Do Androids Dream of Electric Sheep?</h6>
+					</a>
+					  	<div class="text-start">
+							<p>Libro</p>
+							<p>Dick, Philip K.<sup><a href="https://viaf.org/viaf/27063583/#Dick,_Philip_K.,_1928-1982." target="_blank" title="Identificativo VIAF di Dick, Philip K.">VIAF</a></sup></p>
+							<p>1968</p>
+							<p>Stati Uniti</p>
+						</div>
+						</p>
+					  </div>
+					</div>
+					<!-- 4 item -->
+					<a href="#" title="Vai all'item 'Mr. Robot'">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/mrrobot.jpg" class="card-img-top" alt="Mr. robot">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>Mr. Robot</h6>
+					</a>
+					    <div class="text-start">
+						    <p>Serie TV</p>
+						  	<p>Esmail, Sam<sup><a href="https://viaf.org/viaf/121144928847454440647/#Esmail,_Sam,_1977-..." target="_blank" target="_blank" title="Identificativo VIAF di Esmail, Sam">VIAF</a></sup></p>
+						  	<p>2015</p>
+						  	<p>Stati Uniti</p>
+					  	</div>
+						</p>
+					  </div>
+					</div>
+					<!-- 5 item -->
+					<a href="#" title="Vai all'item 'The Difference Engine'">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/thedifferenceengine.jpg" class="card-img-top" alt="The Difference Engine">
+					  <div class="card-body">
+					    <p class="card-text">
+					    <h6>The Difference Engine</h6>
+					</a>
+					    <div class="text-start">
+						    <p>Libro</p>
+						  	<p>Gibson, William<sup><a href="https://viaf.org/viaf/109517110/#Gibson,_William,_1948-...." target="_blank" title="Identificativo VIAF di Gibson, William">VIAF</a></sup>, Sterling, Bruce<sup><a href="https://viaf.org/viaf/76323175/#Sterling,_Bruce,_1954-...." target="_blank" title="Identificativo VIAF di Sterling, Bruce">VIAF</a></sup></p> 
+						  	<p>1990</p>
+						  	<p>Stati Uniti</p>
+					  	</div>
+						</p>
+					  </div>
+					</div>
+					<!--fine cards-->
+			    </div>
+			    <!--fine 2 colonna-->
+			  </div>
+			</div>
+			<div class="credits">
+				<p><a href="credits.html">Credits</a> | <a href="#">Licenze</a></p>
+			</div>
+		</section>
+	
+	<!--Elemento footer per il piede di pagina-->
+	<footer>
+		<p>&copy; Copyright Angelica Castronovo 2023 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</footer>
+	<!-- bootstrap js -->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

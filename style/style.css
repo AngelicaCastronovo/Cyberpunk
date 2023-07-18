@@ -1,0 +1,158 @@
+section, footer {
+	font-family: "Orbitron";
+}
+
+body {
+	margin:auto;
+	text-align: center;
+}
+
+nav{
+	text-align: left;
+}
+
+.search {
+	text-align: right;
+}
+
+header, nav, h1, h2, h6 {
+	font-family:"Press Start 2P";
+}
+
+header {
+	margin:auto;
+	background-color: #6320a2;
+	background-image:url("../img/cityscape.png");
+	background-position: center;
+	height:176px;
+	width: 100%;
+}
+
+.testo-intro {
+	padding-top: 60px;
+	font-size: 30px;
+	color:#FF007C;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+	color:black;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+nav a:link, a:visited {
+	color: #36b4e2;
+}
+
+.btn {
+	color:black;
+}
+
+.btnblue:visited, .btnblue:link {
+	color:white;
+}
+
+.credits, .catalogo-lista {
+	background-color:rgb(255, 0, 124, 0.4);
+	padding-top: 8px;
+	padding-bottom: 0.5px;
+}
+
+.credits {
+	margin-top: 50px;
+}
+
+.card {
+	margin-top: 20px;
+}
+
+footer {
+	background-color:rgb(153, 0, 74, 0.7);
+	padding: 15px;
+	color: white;
+}
+
+
+.title {
+	padding: 10px;
+}
+
+td {
+  text-align: left;
+}
+
+.breadcrumb  {
+	font-size: 15px;
+	font-family: "Orbitron";
+}
+
+.card-img-top:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+
+.mappa {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.carousel {
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.about {
+	margin-top: 30px;
+}
+
+.scrollspy {
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+
+.list-group  {
+	margin-top: 50px;
+}
+
+.presentazione {
+	background-color: #ffccff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.back {
+	background-color: #ccf5ff;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.linkviola:visited, .linkviola:link {
+	color:#cc0099;
+}
+
+.logo:visited, .logo:link {
+	text-decoration:none;
+	color: #FF007C;
+}
+
+.logo:hover {
+	color: rgb(153, 0, 74, 0.7);
+}
+
+.ritocchi {
+	margin-top: 90px;
+	margin-left: 10px;
+}
+
+.ultimo {
+	margin-left: 20px;
+}

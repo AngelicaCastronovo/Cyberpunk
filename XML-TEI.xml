@@ -1,0 +1,120 @@
+<?xml version="1" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+         <titleStmt>
+            <title>Akira Vol.1</title>
+            <author xml:id="Otomo">Otomo, Katsuhiro. 1954-</author>
+            <respStmt>
+                <resp>marcatura</resp>
+                <name xml:id="AC">Angelica Castronovo</name>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt><p>Not for distribution</p></publicationStmt>
+        <sourceDesc> 
+            <p></p>
+         </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <tagsDecl>
+            <rendition xml:id="small">dimensione testo piccolo</rendition>
+            <rendition xml:id="large">dimensione testo grande</rendition>
+            <rendition xml:id="xx-large">dimensione testo molto grande</rendition>
+        </tagsDecl>
+        <classDecl>
+            <taxonomy xml:id="LCSH">
+              <bibl>Library of Congress Subject Headings</bibl>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+ </teiHeader>
+ <text xml:lang="en">
+    <front>
+        <castList>
+            <castGroup>
+                <!--personaggi che parlano alemno una volta nella pagina analizzata-->
+                <castItem>
+                    <role xml:id="Kaneda">Shotaro Kaneda</role>
+                    <roleDesc>Protagonista</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="Professore">Professore</role>
+                    <roleDesc>Professore</roleDesc>
+                </castItem>
+                <castItem>
+                     <role xml:id="Yamagata">Yamagata</role>
+                    <roleDesc>Amico Kaneda</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="Compagno_di_classe">Anonimo</role>
+                    <roleDesc>Compagno di classe</roleDesc>
+                </castItem>
+                <!--personaggi principali in tutta l'opera-->
+                <castItem>
+                    <role xml:id="Akira">Akira</role>
+                    <roleDesc>Protagonista</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="Tetsuo">Tetsuo Shima</role>
+                    <roleDesc>Co-protagonista e antagonista</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="Takashi">Takashi</role>
+                    <roleDesc>Protagonista</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="Kiyoko">Kiyoko</role>
+                    <roleDesc>Protagonista</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="Masaru">Masaru</role>
+                    <roleDesc>Protagonista</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="Colonel">Colonel Shikishima</role>
+                    <roleDesc>Capo progetto governativo segreto</roleDesc>
+                </castItem>
+                <castItem>
+                    <role xml:id="Kei">Kei</role>
+                    <roleDesc>Membro della resistenza</roleDesc>
+                </castItem>
+            </castGroup>
+        </castList>
+    </front>
+    <body xmlns:cbml="http://www.cbml.org/ns/1.0">
+        <pb n="109" ed="109"/>
+        <cbml:panel n="1">
+            <cbml:balloon n="1" type="speech" subtype="scream" who="Professore">ARE YOU TRYING TO TELL ME THERE IS NOTHING WRONG WITH <textClass><keywords scheme="#LCSH"><term>GAMBLING</term></keywords></textClass>?!</cbml:balloon>
+        </cbml:panel>
+        <cbml:panel n="2">
+            <cbml:balloon n="1" type="speech" who="Yamagata">OF COURSE NOT. JUST WITH LOSING. I'M OUT TEN BUCKS THIS WEEK</cbml:balloon>
+            <cbml:balloon n="2" type="speech" who="Compagno_di_classe">HEY, <name type="person" ref="#Kaneda">KANEDA</name>, GIVE ME SOME!</cbml:balloon>
+            <cbml:balloon n="3" type="speech" who="Kaneda">I ALREADY TOLD YOU...</cbml:balloon>
+        </cbml:panel>
+        <cbml:panel n="3">
+            <cbml:balloon n="1" type="speech" who="Professore">THE NEXT THING YOU'RE GOING TO BE OUT OF IS THIS SCHOOL... AND ON YOUR WAY TO REFORM SCHOOL.</cbml:balloon>
+        </cbml:panel>
+        <cbml:panel n="4">
+            <cbml:balloon n="1" type="speech" subtype="scream" who="Yamagata">IF THAT HAPPENS, YOUR TEETH ARE GONNA BE OUT OF YOUR MOUTH!</cbml:balloon>
+            <cbml:balloon n="2" type="speech" who="Compagno_di_classe">I SUPPOSE IT'S MEDICINE.</cbml:balloon>
+            <cbml:balloon n="3" type="speech" who="Kaneda">YEAH. COUGH <textClass><keywords scheme="#LCSH"><term>MEDICINE</term></keywords></textClass></cbml:balloon>
+            <sound type="colpi_di_tosse" rend="small">KOFF KOFF</sound>
+        </cbml:panel>
+        <cbml:panel n="5">
+            <cbml:balloon n="1" type="speech" subtype="scream" who="Yamagata">Y'SEE BASICALLY...</cbml:balloon>
+            <cbml:balloon n="2" type="speech" subtype="scream" who="Kaneda">SORRYSIR IGOTTAGO!</cbml:balloon>
+            <sound type="movimento_corpo" subtype="alzarsi_velocemente" rend="large">ZIP</sound>
+        </cbml:panel>
+        <cbml:panel n="6">
+            <cbml:balloon n="1" type="speech" subtype="scream" who="Professore">WH- WH- WH- WHAT?!</cbml:balloon>
+        </cbml:panel>
+        <cbml:panel n="7">
+            <cbml:balloon n="1" type="speech" subtype="scream" who="Professore">SIT DOWN, <name type="person" ref="#Kaneda">MR. KANEDA</name>!</cbml:balloon>
+            <cbml:balloon n="2" type="speech" who="Kaneda">NEVER MIND ME, SIR, JUST GO ON WITH CLASS.</cbml:balloon>
+        </cbml:panel>
+    </body>
+    <back>
+    </back>
+ </text>
+</TEI>
+

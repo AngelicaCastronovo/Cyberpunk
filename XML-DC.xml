@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<dc:title>Akira</dc:title>
+	<dc:creator VIAF="114582640" Permalink="http://viaf.org/viaf/114582640" SBN="IT\ICCU\ANAV\055643">Otomo, Katsuhiro. 1954-</dc:creator>
+	<dc:subject>Manga</dc:subject>
+	<dc:subject>Cyberpunk</dc:subject>
+	<dc:subject>Science Fiction</dc:subject>
+	<dc:subject>Political thriller</dc:subject>
+	<dc:subject>Post-apocalyptic</dc:subject>
+	<dc:subject>Japan</dc:subject>
+	<dc:description>Cyberpunk manga series, 6 volumes</dc:description>
+	<dc:publisher>Kodansha Ltd.</dc:publisher>
+	<dc:contributor>Young Magazine</dc:contributor>
+	<dc:contributor type="translator" VIAF="275227515">Umezawa, Yoko</dc:contributor>
+	<dc:contributor type="translator" VIAF="278510577">York, Linda M.</dc:contributor>
+	<dc:contributor type="translator" VIAF="63113061">Duffy, Jo</dc:contributor>
+	<dc:date xsi:type="created" from="1982" to="1990">1982-1990</dc:date>
+	<dc:type>text</dc:type>
+	<dc:format>physical medium</dc:format>
+	<dc:identifier type="OCLC">326533804</dc:identifier>
+	<dc:identifier type="Wikidata">Q91486</dc:identifier>
+	<dc:identifier type="Cyberpunk">M1</dc:identifier>
+	<dc:source>Akira, Otomo, Katsuhiro, WorldCat, https://worldcat.org/title/326533804</dc:source>
+	<dc:language>en</dc:language>
+	<dc:relation>WorldCat Library Cataloug</dc:relation>
+	<dc:coverage>Kodansha Comics</dc:coverage>
+	<dc:rights>Intellectual Property Rights by Kodansha Comics</dc:rights>
+</metadata>
